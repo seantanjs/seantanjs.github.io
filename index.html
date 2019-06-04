@@ -1,10 +1,352 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-  </head>
-  <body>
-    <div>Hello there</div>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<link rel="icon" href="img/favicon.png" type="image/png" />
+		<title>Htat Win Personal Site</title>
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="vendors/linericon/style.css" />
+		<link rel="stylesheet" href="css/font-awesome.min.css" />
+		<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css" />
+		<link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css" />
+		<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css" />
+		<link rel="stylesheet" href="vendors/animate-css/animate.css" />
+		<link rel="stylesheet" href="vendors/flaticon/flaticon.css" />
+		<!-- main css -->
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/responsive.css" />
+	</head>
+	<body>
+		<!--================Header Menu Area =================-->
+		<header class="header_area">
+			<div class="main_menu" id="mainNav">
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<div class="container box_1620">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<a class="navbar-brand logo_h" href="#home">
+							<div>
+								<h2
+									style="font-family:'Heebo',sans-serif; font-weight: bold;text-transform: uppercase"
+								>
+									Maung Kaung Htat Win
+								</h2>
+								<h5
+									style="font-family: 'Roboto',sans-serif;text-transform: uppercase;letter-spacing: 2.1px;font-size: 14px"
+								>
+									Full-stack Dev
+								</h5>
+							</div></a
+						>
+						<button
+							class="navbar-toggler"
+							type="button"
+							data-toggle="collapse"
+							data-target="#navbarSupportedContent"
+							aria-controls="navbarSupportedContent"
+							aria-expanded="false"
+							aria-label="Toggle navigation"
+						>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div
+							class="collapse navbar-collapse offset"
+							id="navbarSupportedContent"
+						>
+							<ul class="nav navbar-nav menu_nav ml-auto">
+								<!-- <li class="nav-item">
+									<a class="nav-link" href="#about">About</a>
+								</li> -->
+								<li class="nav-item submenu dropdown">
+									<a
+										href="#portfolio"
+										class="nav-link dropdown-toggle"
+										data-toggle="dropdown"
+										role="button"
+										aria-haspopup="true"
+										aria-expanded="false"
+										>Portfolio</a
+									>
+									<ul class="dropdown-menu">
+										<li class="nav-item">
+											<a class="nav-link" href="https://htatwin.com/starplebe"
+												>StarPlebe</a
+											>
+										</li>
+										<li class="nav-item">
+											<a
+												class="nav-link"
+												href="https://htatwin.com/stockify/login"
+												>Stockify</a
+											>
+										</li>
+										<li class="nav-item">
+											<a
+												class="nav-link"
+												href="https://htatwin.com/fitter/login"
+												>Fitter</a
+											>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#ave">A Verdant Earth</a>
+										</li>
+									</ul>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="https://s3-ap-southeast-1.amazonaws.com/a-verdant-earth/Htatwin_Resume.pdf">Resume</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#contact">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<!--================Header Menu Area =================-->
 
-  </body>
+		<!--================Projects Area =================-->
+		<section class="projects_area p_120">
+			<div class="container">
+				<div class="main_title">
+					<h2>Featured Projects</h2>
+				</div>
+				<div class="projects_fillter" id="ave">
+					<ul class="filter list">
+						<li class="active" data-filter="*">
+							<a href="#">All Categories</a>
+						</li>
+						<li data-filter=".game"><a href="#">Games</a></li>
+						<li data-filter=".web"><a href="#">Web Apps </a></li>
+					</ul>
+				</div>
+				<div class="projects_inner row">
+					<div class="col-lg-4 col-sm-6 game">
+						<div class="projects_item">
+							<img
+								class="img-fluid"
+								src="img/projects/starplebe_moving.gif"
+								alt=""
+							/>
+							<div class="projects_text">
+								<a href="https://htatwin.com/starplebe">
+									<h4 style="color:aliceblue">Star Plebe</h4>
+								<p>2D Multiplayer Space Sim</p>
+							</div>
+								</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 web">
+						<div class="projects_item">
+							<img
+								class="img-fluid"
+								src="img/projects/stockify_moving.gif"
+								alt=""
+							/>
+							<div class="projects_text">
+								<a href="https://htatwin.com/stockify/login"
+									><h4>Stockify</h4>
+								
+								<p>Stock Analysis App</p>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 web">
+						<div class="projects_item">
+							<img
+								class="img-fluid"
+								src="img/projects/fitter_moving.gif"
+								alt=""
+							/>
+							<div class="projects_text">
+								<a href="https://htatwin.com/fitter/login"><h4>Fitter</h4>
+								<p>Weight Management + Food & Exercise Tracker</p>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 game">
+						<div class="projects_item">
+							<img class="img-fluid" src="img/projects/ave_moving.gif" alt="" />
+							<div class="projects_text">
+								<h4>A Verdant Earth</h4>
+								<p>
+									Side-scrolling strategy game for
+									<a
+										href="https://s3-ap-southeast-1.amazonaws.com/a-verdant-earth/AVE-win64.zip"
+										>Windows </a
+									>,
+									<a
+										href="https://s3-ap-southeast-1.amazonaws.com/a-verdant-earth/AVE-osx64.zip"
+										>Mac
+									</a>
+									&
+									<a
+										href="https://s3-ap-southeast-1.amazonaws.com/a-verdant-earth/AVE-linux64.zip"
+										>Linux
+									</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--================End Projects Area =================-->
+
+		<!--================Welcome Area =================-->
+		<!-- <section class="welcome_area" id="about">
+			<div class="container">
+				<div class="row welcome_inner">
+					<div class="col-lg-12">
+						<div class="tools_expert">
+							<h3>Skillset</h3>
+							<div class="skill_main">
+								<div class="skill_item">
+									<h4>After Effects <span class="counter">85</span>%</h4>
+									<div class="progress">
+										<div
+											class="progress-bar"
+											role="progressbar"
+											aria-valuenow="85"
+											aria-valuemin="0"
+											aria-valuemax="100"
+										></div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>Photoshop <span class="counter">90</span>%</h4>
+									<div class="progress">
+										<div
+											class="progress-bar"
+											role="progressbar"
+											aria-valuenow="90"
+											aria-valuemin="0"
+											aria-valuemax="100"
+										></div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>Illustrator <span class="counter">70</span>%</h4>
+									<div class="progress">
+										<div
+											class="progress-bar"
+											role="progressbar"
+											aria-valuenow="70"
+											aria-valuemin="0"
+											aria-valuemax="100"
+										></div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>Sublime <span class="counter">95</span>%</h4>
+									<div class="progress">
+										<div
+											class="progress-bar"
+											role="progressbar"
+											aria-valuenow="95"
+											aria-valuemin="0"
+											aria-valuemax="100"
+										></div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>Sketch <span class="counter">75</span>%</h4>
+									<div class="progress">
+										<div
+											class="progress-bar"
+											role="progressbar"
+											aria-valuenow="75"
+											aria-valuemin="0"
+											aria-valuemax="100"
+										></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+		<!--================End Welcome Area =================-->
+
+		<!--================Footer Area =================-->
+		<footer class="footer_area" style="padding: 40px" id="contact">
+			<div class="container">
+				<div class="row footer_inner">
+					<!-- <div class="col-lg-5 col-sm-6">
+						<aside class="f_widget ab_widget">
+							<div class="f_title">
+								<h3>About Me</h3>
+							</div>
+							<p>
+								Do you want to be even more successful? Learn to love learning
+								and growth. The more effort you put into improving your skills,
+							</p>
+							<p>
+								Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+								Copyright &copy;<script>
+									document.write(new Date().getFullYear());
+								</script>
+								All rights reserved | This template is made with
+								<i class="fa fa-heart-o" aria-hidden="true"></i> by
+								<a href="https://colorlib.com" target="_blank">Colorlib</a>
+								Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+							</p>
+						</aside>
+					</div> -->
+
+					<div class="col-lg-2">
+						<aside class="f_widget social_widget">
+							<div class="f_title">
+								<h3>Find Me At</h3>
+							</div>
+							<ul class="list">
+								<li>
+									<a href="https://github.com/kauvia"><i class="fa fa-github"></i></a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/in/htatwin/"><i class="fa fa-linkedin"></i></a>
+								</li>
+								<li>
+									<a href="mailto:mkhw1989@gmail.com"><i class="fa fa-envelope"></i></a>
+								</li>
+							</ul>
+						</aside>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--================End Footer Area =================-->
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/popper.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/stellar.js"></script>
+		<script src="vendors/lightbox/simpleLightbox.min.js"></script>
+		<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+		<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+		<script src="vendors/isotope/isotope-min.js"></script>
+		<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+		<script src="js/jquery.ajaxchimp.min.js"></script>
+		<script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+		<script src="vendors/counter-up/jquery.counterup.min.js"></script>
+		<script src="js/mail-script.js"></script>
+		<!--gmaps Js-->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+		<script src="js/gmaps.min.js"></script>
+		<script src="js/theme.js"></script>
+	</body>
 </html>
